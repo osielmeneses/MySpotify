@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MySpotify.Application.Users.Dto;
 using MySpotify.Application.Users.Handler.Commands;
@@ -8,6 +9,7 @@ namespace MySpotify.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Policy = "user-policy")]
     public class UserController : ControllerBase
     {
         public IMediator Handler { get; }
