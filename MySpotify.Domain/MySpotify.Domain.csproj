@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Album\ValueObject\" />
+    <Folder Include="Album\Repository\" />
+    <Folder Include="Users\ValueObject\" />
+    <Folder Include="Users\Rules\" />
+    <Folder Include="Users\Repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MySpotify.Infrastructure\MySpotify.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

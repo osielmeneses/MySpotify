@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySpotify.Application", "MySpotify.Application\MySpotify.Application.csproj", "{FAAF2AD8-3454-4BF6-87C6-19BFC4B9B379}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySpotify.Domain", "MySpotify.Domain\MySpotify.Domain.csproj", "{36C74CE9-5A68-4C1D-9365-D6CA1BAB05CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySpotify.Infrastructure", "MySpotify.Infrastructure\MySpotify.Infrastructure.csproj", "{EA8E46FB-4DC4-4CC0-96AE-4D50316AF289}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySpotify.Repository", "MySpotify.Repository\MySpotify.Repository.csproj", "{7E512B8A-DEAE-44F8-AC8C-7D4BC1195153}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySpotify.API", "MySpotify.API\MySpotify.API.csproj", "{BFEBE2E6-8499-4589-914B-B5D2B046F2A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySpotify.Idp", "MySpotify.Idp\MySpotify.Idp.csproj", "{3C0CB050-CBA6-41D5-8433-D9033D7A6C3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAAF2AD8-3454-4BF6-87C6-19BFC4B9B379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAF2AD8-3454-4BF6-87C6-19BFC4B9B379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAF2AD8-3454-4BF6-87C6-19BFC4B9B379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAF2AD8-3454-4BF6-87C6-19BFC4B9B379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C74CE9-5A68-4C1D-9365-D6CA1BAB05CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C74CE9-5A68-4C1D-9365-D6CA1BAB05CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C74CE9-5A68-4C1D-9365-D6CA1BAB05CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C74CE9-5A68-4C1D-9365-D6CA1BAB05CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8E46FB-4DC4-4CC0-96AE-4D50316AF289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8E46FB-4DC4-4CC0-96AE-4D50316AF289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8E46FB-4DC4-4CC0-96AE-4D50316AF289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8E46FB-4DC4-4CC0-96AE-4D50316AF289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E512B8A-DEAE-44F8-AC8C-7D4BC1195153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E512B8A-DEAE-44F8-AC8C-7D4BC1195153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E512B8A-DEAE-44F8-AC8C-7D4BC1195153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E512B8A-DEAE-44F8-AC8C-7D4BC1195153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEBE2E6-8499-4589-914B-B5D2B046F2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEBE2E6-8499-4589-914B-B5D2B046F2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEBE2E6-8499-4589-914B-B5D2B046F2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEBE2E6-8499-4589-914B-B5D2B046F2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C0CB050-CBA6-41D5-8433-D9033D7A6C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0CB050-CBA6-41D5-8433-D9033D7A6C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0CB050-CBA6-41D5-8433-D9033D7A6C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0CB050-CBA6-41D5-8433-D9033D7A6C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0245F71-40EE-4544-B7E5-2FE49DC64802}
+	EndGlobalSection
+EndGlobal
